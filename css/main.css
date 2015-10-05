@@ -1,8 +1,8 @@
 body {
-  font-family: 'Lobster', cursive; }
+  font-family: 'Lobster', cursive;
+  background: #000000; }
 
 .container {
-  margin: 100px;
   text-align: center;
   font-size: 100px;
   color: pink; }
