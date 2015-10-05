@@ -35,11 +35,11 @@ var formattedSeconds = formatSeconds(now);
 
 
 //Display
-var currentTime = formattedHours + ':' + formattedMinutes + ':' + formattedSeconds;
+var currentTime = '#' + formattedHours + formattedMinutes + formattedSeconds;
   console.log(currentTime);
 
 //var textNode= document.createTextNode(currentTime);
-  $('#clock').text(currentTime);
+  $('#clock').text(currentTime).css('background-color', currentTime);
 }, 1000);
 
 } ());
