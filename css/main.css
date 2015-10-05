@@ -1,2 +1,7 @@
-p {
+.container {
+  text-align: center;
+  font-size: 60px;
   color: pink; }
+  .container p {
+    margin: 100px;
+    align-content: center; }
