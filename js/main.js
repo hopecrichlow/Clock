@@ -35,15 +35,8 @@ var formattedSeconds = formatSeconds(now);
 
 
 //Display
-
 var currentTime = formattedHours + ':' + formattedMinutes + ':' + formattedSeconds;
-  console.log(currentTime)
-
-var clock = document.querySelector('#clock');
-   console.log(clock);
-
-
-
+  console.log(currentTime);
 
 //var textNode= document.createTextNode(currentTime);
   $('#clock').text(currentTime);

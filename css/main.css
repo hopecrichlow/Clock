@@ -1,7 +1,12 @@
+body {
+  background: #000000;
+  font-family: 'Lobster', cursive; }
+
 .container {
+  margin: 100px;
   text-align: center;
-  font-size: 60px;
+  font-size: 100px;
   color: pink; }
   .container p {
-    margin: 100px;
+    padding: 100px;
     align-content: center; }
