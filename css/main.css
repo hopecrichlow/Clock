@@ -1,11 +1,13 @@
 body {
-  font-family: 'Lobster', cursive;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
   background: #000000; }
 
 .container {
   text-align: center;
   font-size: 100px;
-  color: pink; }
+  font-weight: 300;
+  color: white}
   .container p {
     padding: 100px;
     align-content: center; }
