@@ -42,14 +42,6 @@ var formattedSeconds = formatSeconds(now);
 
 var hexSeconds = formattedSeconds.toString(16);
 
-// function secs (){
-//   return (hexSeconds <= 9 || hexSeconds === 'a' || hexSeconds === 'b' || hexSeconds === 'c' || hexSeconds === 'd' || hexSeconds === 'e' || hexSeconds === 'f' || hexSeconds === 'g') ? hexSeconds + '0' : hexSeconds;
-// };
-
-//   if (a <= hexSeconds <= f ) {
-//     return hexSeconds + '0';
-// } else {
-//     return hexSeconds; };
 console.log(hexHours);
 console.log(hexMinutes);
 console.log(hexSeconds);
